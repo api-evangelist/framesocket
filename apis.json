@@ -1,0 +1,73 @@
+{
+    "name": "Framesocket",
+    "description": "Easily integrate video into your website or mobile applications. Build traffic via Google Facebook YouTube Twitter. No limits on users storage or bandwidth.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/795-framesocket.jpg",
+    "tags": [
+        "api provider",
+        "have api",
+        "service api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/framesocket\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Framesocket",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/795-framesocket.jpg",
+            "humanURL": "http:\/\/framesocket.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/framesocket.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "http:\/\/www.framesocket.com\/api\/"
+        },
+        {
+            "type": "Blog",
+            "url": "http:\/\/blog.framesocket.com\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/blog.framesocket.com\/rss"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/framesocket"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/framesocket"
+        },
+        {
+            "type": "Developers",
+            "url": "http:\/\/www.framesocket.com\/for-developers\/"
+        },
+        {
+            "type": "Email",
+            "url": "api-support@framesocket.com"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/framesocket"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/framesocket.com"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.framesocket.com"
+        }
+    ]
+}
