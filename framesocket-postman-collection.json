@@ -1,0 +1,479 @@
+{
+    "id": "8f7c4043423e8554a863bb2b4a7c2612",
+    "name": "Framesocket",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "ddd375f83d2d0407c72c8294a00d3e4c",
+            "name": "Activate Media",
+            "url": "www.framesocket.com\/api\/media\/activate.php",
+            "description": "Activate Media",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "customid",
+                    "description": "Custom ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "hash",
+                    "description": "Video Hash",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "key",
+                    "description": "Your account username.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "secret",
+                    "description": "Your account API secret.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sig",
+                    "description": "This is an md5 hash of your gatekeeper concatenated with your request action.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8f7c4043423e8554a863bb2b4a7c2612",
+            "rawModeData": ""
+        },
+        {
+            "id": "4ed6a065237999e59ef5a20b40385987",
+            "name": "Deactive Media",
+            "url": "www.framesocket.com\/api\/media\/deactivate.php",
+            "description": "Deactive Media",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "customid",
+                    "description": "Custom ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "hash",
+                    "description": "Video Hash",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "key",
+                    "description": "Your account username.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "secret",
+                    "description": "Your account API secret.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sig",
+                    "description": "This is an md5 hash of your gatekeeper concatenated with your request action.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8f7c4043423e8554a863bb2b4a7c2612",
+            "rawModeData": ""
+        },
+        {
+            "id": "d9cd92cc977f09e004c9af064aa05e34",
+            "name": "Query Images",
+            "url": "www.framesocket.com\/api\/media\/images.php",
+            "description": "Query Images",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "customid",
+                    "description": "Custom ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "hash",
+                    "description": "Video Hash",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "key",
+                    "description": "Your account username.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "secret",
+                    "description": "Your account API secret.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sig",
+                    "description": "This is an md5 hash of your gatekeeper concatenated with your request action.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8f7c4043423e8554a863bb2b4a7c2612",
+            "rawModeData": ""
+        },
+        {
+            "id": "9ba9db99d468c662b9f429db241bdfeb",
+            "name": "Query Media",
+            "url": "www.framesocket.com\/api\/media\/query.php",
+            "description": "Query Media",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "andkeywords",
+                    "description": "Comma separated list of title words.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "andtitlewords",
+                    "description": "Comma separated list of title words.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "customid",
+                    "description": "Custom ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "hash",
+                    "description": "Video Hash",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "key",
+                    "description": "Your account username.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "Must be a valid integer.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "orkeywords",
+                    "description": "Comma separated list of title words.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ortitlewords",
+                    "description": "Comma separated list of title words.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "secret",
+                    "description": "Your account API secret.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sig",
+                    "description": "This is an md5 hash of your gatekeeper concatenated with your request action.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sort",
+                    "description": "Must be a valid sorting option, either newest or oldest firs",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "status",
+                    "description": "Must be a valid status code.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "type",
+                    "description": "Must be a valid type, either image or video.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8f7c4043423e8554a863bb2b4a7c2612",
+            "rawModeData": ""
+        },
+        {
+            "id": "02e80f5c08797ed10f4c659e803f1d98",
+            "name": "Update Media",
+            "url": "www.framesocket.com\/api\/media\/update.php",
+            "description": "Update Media",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "customid",
+                    "description": "Custom ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "description",
+                    "description": "Text String - Limit 1000 characters",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "hash",
+                    "description": "Video Hash",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "imagehash",
+                    "description": "This needs to refer to an image already assigned to this media.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "key",
+                    "description": "Your account username.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "keywords",
+                    "description": "Text String - Comma separated by keyword or phrase",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "secret",
+                    "description": "Your account API secret.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sig",
+                    "description": "This is an md5 hash of your gatekeeper concatenated with your request action.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "title",
+                    "description": "Text String - Limit 100 characters",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8f7c4043423e8554a863bb2b4a7c2612",
+            "rawModeData": ""
+        },
+        {
+            "id": "e3ce85ef4d5408346e4d746946a71368",
+            "name": "Upload Media",
+            "url": "www.framesocket.com\/api\/media\/upload.php",
+            "description": "Upload Media",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "callback",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "customid",
+                    "description": "Custom ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "description",
+                    "description": "Text String - Limit 1000 characters",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "key",
+                    "description": "Your account username.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "keywords",
+                    "description": "Text String - Comma separated by keyword or phrase",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "media",
+                    "description": "Must be properly formatted POST data - either an image or a video.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "secret",
+                    "description": "Your account API secret.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sig",
+                    "description": "This is an md5 hash of your gatekeeper concatenated with your request action.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "title",
+                    "description": "Text String - Limit 100 characters",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8f7c4043423e8554a863bb2b4a7c2612",
+            "rawModeData": ""
+        }
+    ]
+}
